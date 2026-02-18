@@ -1,4 +1,6 @@
 body{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+        font-family: 'Inter', sans-serif;
     margin: 0px;
     padding: 0px;
 
@@ -18,16 +20,16 @@ body{
     
     }
     .taothong{
-        font-size: 130px;
+        font-size: 180px;
         text-align: left;
         margin: 0px;
-        padding: 0px 100px;
+        padding: 0px 150px;
     }
     .composite{
         font-size: 70px;
         text-align: left;
         margin: 0px;
-        padding: 30px 120px;
+        padding: 30px 170px;
     }
      .showreel{
         position: absolute;
@@ -35,7 +37,7 @@ body{
         z-index: 2;
         text-decoration: underline;
         font-size: 150px;
-        top: 850px;          
+        top: 1100px;          
         right: 80px;        
         margin: 0;
         padding: 0;
@@ -49,13 +51,37 @@ body{
         
     .video{
             position: absolute;
-            top: 150%;
+            top: 180%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
         
         
     }
+
+    .contact-container{
+        background-color: black;
+        display: flex;
+        padding: 0px 0px;
+    }
+    .contact{
+        color: white;
+        font-size: 200px;
+        padding: 0px 50px;
+        margin: 0px;
+    }
+
+    .up-write{
+        color: white;
+        padding: 10px 10px;
+    }
+    .low-write{
+        color: white;
+        padding: 70px 50px;
+        
+    }
+    
+    
 
     
     
