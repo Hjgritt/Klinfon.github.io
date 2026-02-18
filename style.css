@@ -1,81 +1,93 @@
 body{
+    /* font-setting */
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
         font-family: 'Inter', sans-serif;
+    /* setup-setting */
     margin: 0px;
     padding: 0px;
 
+    /* setting */
     .navbar{
         background-color: black;
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 15px;
-        padding: 50px;
-        .klinfon{
+        padding: 50px; 
+    }
+    .klinfon{
             color: white;
             font-size: 35px;
-            padding: 10px;
+            padding: 25px;
         }
-
-    
-    }
     .taothong{
         font-size: 180px;
         text-align: left;
         margin: 0px;
         padding: 0px 150px;
     }
+    /* composite-setting */
     .composite{
         font-size: 70px;
         text-align: left;
         margin: 0px;
-        padding: 30px 170px;
+        padding: 0px 170px;
+    }
+    .composite-blank{
+        color: white;
+        padding: 70px 10px;
+    }
+    /* video-setting */
+    .showreelbackground{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 400px 70px;
+        gap: 30px;
+
     }
      .showreel{
-        position: absolute;
         color: rgb(255, 255, 255);
         z-index: 2;
         text-decoration: underline;
-        font-size: 150px;
-        top: 1100px;          
-        right: 80px;        
+        font-size: 150px;  
+        text-align: right;    
         margin: 0;
-        padding: 0;
-}
-    .showreelbackground{
-        background-color: black;
-        align-items: center;
-        margin: 0px;
-        padding: 800px 0px;
-
-        
-    .video{
-            position: absolute;
-            top: 180%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        
+        width: 100%;
     }
-
+    .video{
+        max-width: 90%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        border: 5px solid white;
+        border-radius: 10px; 
+    }
+    
+    .contact-blank{
+        background-color: rgb(0, 0, 0);
+        padding: 70px 10px;
+    }
+    /* contact-setting */
     .contact-container{
         background-color: black;
         display: flex;
-        padding: 0px 0px;
+        padding: 0px 50px;
     }
     .contact{
         color: white;
         font-size: 200px;
-        padding: 0px 50px;
         margin: 0px;
     }
 
-    .up-write{
+    /* contact-location-setting */
+    .contact-dataup-blank{
         color: white;
         padding: 10px 10px;
     }
-    .low-write{
+    .contact-datadown-blank{
         color: white;
         padding: 70px 50px;
         
